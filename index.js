@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
-
+const generateMarkdown = require('./generateMarkdown.js');
 
 function generateMarkdown(data) {
     // Your implementation for generating the README content
