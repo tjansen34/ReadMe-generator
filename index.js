@@ -1,13 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
+const generateMarkdown = require('./utils/generateMarkdown')
 
-function generateMarkdown(data) {
-    // Your implementation for generating the README content
-  }
-  
-  // Export the generateMarkdown function
-  module.exports = generateMarkdown;
 // TODO: Create an array of questions for user input
 const questions = [
   {

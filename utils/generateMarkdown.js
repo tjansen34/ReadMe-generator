@@ -51,3 +51,4 @@ For any questions or feedback, please feel free to contact the author:
 `;
 }
 
+module.exports = generateMarkdown;
